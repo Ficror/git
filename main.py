@@ -17,7 +17,6 @@ class Example(QMainWindow):
 
     def run(self):
         w = h = randint(10, 200)
-        # создаем экземпляр QPainter, передавая холст (self.label.pixmap())
         painter = QPainter(self.label.pixmap())
         pen = QPen()
         pen.setWidth(3)
